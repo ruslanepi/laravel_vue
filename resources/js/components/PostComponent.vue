@@ -2,7 +2,7 @@
 <div>
 
     <CreateComponent></CreateComponent>
-    <IndexComponent></IndexComponent>
+    <IndexComponent ref="index"></IndexComponent>
 
 
 </div>
@@ -23,9 +23,14 @@ export default {
       }
     },
 
+    mounted() {
+
+    },
 
     methods: {
-
+        parentLog() {
+            console.log('this is parent component');
+        }
     },
 
     computed: {
