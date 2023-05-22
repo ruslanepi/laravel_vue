@@ -21,15 +21,7 @@
 </head>
 <body>
     <div id="app" class="p-5">
-
-            <div class="container">
-
-                <post-component></post-component>
-
-            </div>
-
-
-
+        @yield('content')
     </div>
 </body>
 </html>
